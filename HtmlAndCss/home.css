@@ -1,0 +1,94 @@
+@font-face {
+  font-family : 'neon';
+  font-style  : normal;
+  font-weight : 400;
+  src         : url('font/kit/ubuntu-regular-webfont.woff2') format('woff2'),
+                url('font/kit/ubuntu-regular-webfont.woff') format('woff');
+}
+
+body {
+  margin                : auto 10% auto 10%;
+  color                 : white;
+  background-image      : url('../Pictures/MilkywayWallpaper.jpg');
+  background-size       : auto;
+  font-feature-settings : "kern";
+  font-family           : "neon";
+  font-size             : 16px;
+}
+
+table {
+  margin : 10% auto auto auto;
+}
+
+a {
+  color : crimson;
+}
+
+a:hover {
+    color : dodgerblue;
+}
+
+#Planet {
+  width           : 100px;
+  justify-content : center;
+}
+
+#Name {
+  width      : 50px;
+  text-align : center;
+}
+
+#Earth,
+#Jupiter,
+#Mars,
+#Mercury,
+#Neptune,
+#Saturn,
+#Uranus,
+#Venus {
+  width       : 100%;
+  margin-left : 3%;
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    width: 319px;
+    display: table;
+    margin: 0 auto;
+}
+
+nav a {
+    position: relative;
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+    color: crimson;
+    text-decoration: none;
+    font-feature-settings : "kern";
+    font-family           : "neon";
+    font-size             : 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+    text-decoration: underline
+}
+
+nav a:hover
+{
+    color: dodgerblue;
+}
+
+div.introduction {
+  margin: 10% 25% auto;
+}
+
+div.about {
+  margin: 10% 25% auto;
+}
+
+div.description {
+  margin: 10% 25% auto;
+}

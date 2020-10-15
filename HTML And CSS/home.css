@@ -1,0 +1,18 @@
+body{
+   background-image: url('../Pictures/MilkywayWallpaper.jpg');
+   color: white;
+}
+#Planet{
+    width:  100px ;
+    justify-content: center
+}
+#Name{
+    width: 50px;
+    text-align: center;
+
+}
+#Earth,#Mercury,#Mars,#Venus,#Uranus,#Saturn,#Neptune,#Jupiter {
+    width: 400px;
+    height: 400px;
+    margin-left: 3%;
+}

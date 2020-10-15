@@ -1,2 +1,2 @@
 # TheMilkyWay
-a website talking about universe and our system solair
+a website talking about universe and our solar system.
